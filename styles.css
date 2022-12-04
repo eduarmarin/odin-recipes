@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(242, 248, 246);
+    margin-top:5px;
+}
+
+.content {
+    width: 98%;
+    background-color: gray;
+    padding: 15px;
+    margin: 0 auto;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+ }
+
+.header {
+    width: auto;
+    background-color: orange;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ 
+img {
+    margin-top: 5px;
+    margin-right: 40%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sumary {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
