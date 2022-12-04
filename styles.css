@@ -1,5 +1,6 @@
 body {
     background-color: rgb(242, 248, 246);
+    /*text-align: center;*/
     margin-top:5px;
 }
 
@@ -24,21 +25,37 @@ body {
  
 img {
     margin-top: 5px;
-    margin-right: 40%;
+    opacity: 75%;
 }
 
 ul {
-    list-style-type: none;
+   /*list-style-type: none;
+   list-style: none;*/
 }
 
 .sumary {
-    display: flexbox;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#box {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.lista {
+ /*   display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;*/
 }
 
 .footer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
