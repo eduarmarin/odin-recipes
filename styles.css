@@ -3,7 +3,7 @@ body {
     box-sizing: border-box;
     height: 100%;
     margin-top:5px;
-    font-size: auto;
+    font-size: 1em;
 }
 
 .content {
@@ -28,8 +28,9 @@ body {
  }
 
  .title1{
+   display: flex;
    text-align: center;
-   font-size: auto;
+   font-size: 1em;
  }
  
 img {
