@@ -26,6 +26,11 @@ body {
     align-items: center;
     justify-content: space-around;
  }
+
+ .title1{
+   text-align: center;
+   font-size: auto;
+ }
  
 img {
     margin: 5px;
