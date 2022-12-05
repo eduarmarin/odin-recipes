@@ -3,6 +3,7 @@ body {
     box-sizing: border-box;
     height: 100%;
     margin-top:5px;
+    font-size: auto;
 }
 
 .content {
@@ -16,7 +17,9 @@ body {
  }
 
 .header {
-    width: auto;
+    /*width: auto;*/
+    max-width: 100%;
+    height: auto;
     background-color: rgb(243, 170, 35);
     padding: 15px;
     display: flex;
@@ -25,9 +28,9 @@ body {
  }
  
 img {
-    margin-top: 5px;
+    margin: 5px;
     opacity: 75%;
-    max-width: 50%;
+    max-width: 70%;
     height: auto;
 }
 
