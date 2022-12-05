@@ -7,7 +7,7 @@ body {
 }
 
 .content {
-    width: 98%;
+    width: auto%;
     background-color: rgba(236, 225, 225, 0.719);
     padding: 15px;
     margin: 0 auto;
@@ -17,8 +17,8 @@ body {
  }
 
 .header {
-    /*width: auto;*/
-    max-width: 100%;
+    width: auto;
+    /*max-width: 100%;*/
     height: auto;
     background-color: rgb(243, 170, 35);
     padding: 15px;
