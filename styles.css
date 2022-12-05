@@ -6,7 +6,7 @@ body {
 
 .content {
     width: 98%;
-    background-color: gray;
+    background-color: rgba(236, 225, 225, 0.719);
     padding: 15px;
     margin: 0 auto;
     display: flexbox;
@@ -16,7 +16,7 @@ body {
 
 .header {
     width: auto;
-    background-color: orange;
+    background-color: rgb(243, 170, 35);
     padding: 15px;
     display: flex;
     align-items: center;
@@ -26,6 +26,8 @@ body {
 img {
     margin-top: 5px;
     opacity: 75%;
+    max-width: 400px;
+    max-height: fit-content;
 }
 
 ul {
@@ -54,6 +56,9 @@ ul {
 }
 
 .footer {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(235, 171, 94);
     display: flex;
     flex-direction: column;
     align-items: center;
