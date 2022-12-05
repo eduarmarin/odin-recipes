@@ -1,6 +1,7 @@
 body {
     background-color: rgb(242, 248, 246);
-    /*text-align: center;*/
+    box-sizing: border-box;
+    height: 100%;
     margin-top:5px;
 }
 
@@ -26,8 +27,8 @@ body {
 img {
     margin-top: 5px;
     opacity: 75%;
-    max-width: 400px;
-    max-height: fit-content;
+    max-width: 50%;
+    height: auto;
 }
 
 ul {
